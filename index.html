@@ -1,0 +1,108 @@
+<HTML>
+<head>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+<body bgcolor="black">
+	<!--<div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+  <iframe frameborder="0" height="100%" width="100%" 
+    src="https://youtube.com/embed/llmaU4jBTqQ?autoplay=1&controls=0&showinfo=0&autohide=1&loop=1" id="existing-iframe-example">
+  </iframe>
+  <script type="text/javascript">
+  	var tag = document.createElement('script');
+  tag.id = 'iframe-demo';
+  tag.src = 'https://www.youtube.com/iframe_api';
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  	function onYouTubeIframeAPIReady() {
+  var player;
+  player = new YT.Player('player', {
+    videoId: 'llmaU4jBTqQ',
+    playerVars: { 'autoplay': 1, 'controls': 0 },
+    events: {
+      'onReady': onPlayerReady,
+      'onPlaybackQualityChange': onPlayerPlaybackQualityChange,
+      'onStateChange': onPlayerStateChange,
+      'onError': onPlayerError
+    }
+  });
+}
+</script>
+
+
+
+<script src="http://www.youtube.com/player_api"></script>
+<script type="text/javascript">
+var player;
+function onYouTubePlayerAPIReady() {
+    player = new YT.Player('player', {
+    playerVars: {
+        'autoplay': 1,
+        'controls': 0,
+        'autohide': 1,
+        'wmode': 'opaque',
+        'showinfo': 0,
+        'loop': 1,
+        'rel': 0,
+        'mute': 1,
+        'playlist': 'rh5QiehIlVA,Bl63bdR-Ko0,'
+        },
+    videoId: 'llmaU4jBTqQ',
+    events: {
+        'onReady': onPlayerReady
+    }
+});
+}
+function onPlayerReady(event) {
+event.target();
+$('#text').fadeIn(400);
+}
+$(window).scroll(function() {
+var hT = $('.m-video').height(),
+   wS = $(this).scrollTop();
+if (wS > hT) {
+  player.pauseVideo();
+}
+else {
+  player.playVideo();
+}
+});
+</script>-->
+
+
+
+
+
+</div>
+
+<div id="snowflakeContainer">
+    <p class="snowflake">$</p>
+</div>
+
+<div class="banner">
+<img src="../images/banner_transbg_2.png"></img></br>
+</div>
+
+<div class="menu">
+	<a href="shows.html" target="container"><img class="" src="../images/shows_inv.png"></img></a>
+	<img src="spacer.png" width="46px">
+	<a href="bio.html" target="container"><img class="" src="../images/bio_inv.png"></img></a>
+	<img src="spacer.png" width="46px">
+	<a href="stuff.html" target="container"><img class="" src="../images/stuff_inv.png"></img></a>
+	<img src="spacer.png" width="46px">
+	<a href="rckrll.html" target="container"><img src="../images/rickroll_inv.png" z-index="2"></img></a>
+
+	<div class="upcoming">
+		<iframe class="container" name="container" frameborder="0" vspace="10px" hspace="22px" z-index="1" width="650" height="550" src="upcoming.html"></iframe>
+
+</div>
+</div>
+
+
+
+<img src="../images/blnkchckbdy_transbg.png" align="right" id="background-img"></img>
+
+
+<script src="fallingsnow_v6.js"></script>
+</body>
+</html>

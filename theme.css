@@ -1,0 +1,61 @@
+#background-img {
+    position: fixed;
+    bottom: -160px;
+    right: 0px;
+    z-index: 1;
+    padding: 0px;
+    margin: 0px;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: -1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+div.banner{
+	padding-left: 15px;
+	padding-top: 15px;
+	position: fixed;
+}
+div.upcoming{
+	padding-left: 25px;
+	padding-top: 30px;
+	position: fixed;
+}
+div.menu{
+	padding-left: 50px;
+	padding-top: 180px;
+	position: absolute;
+}
+img.menuitem{
+	padding-left: 35px;
+	position: fixed;
+}
+
+
+
+//@media only screen and (min-width: 768px) 
+//{
+//div.banner{
+	position: fixed;
+	width: 90%;
+	height: 10%;
+	background-image: url("../images/banner_transbg_2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+}
